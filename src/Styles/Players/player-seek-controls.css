@@ -1,0 +1,7 @@
+.player_seek-controls {
+    display: flex;
+    gap: 1rem;
+    width: clamp(28rem, 50vw, 90rem);
+    align-items: center;
+    justify-content: space-between;
+}

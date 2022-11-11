@@ -1,0 +1,23 @@
+.library_list-item {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    padding: 2rem;
+}
+.library_list-item:hover {
+    background-color: #ffffff13;
+}
+
+.library_song-column {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    flex: 1;
+}
+
+.active-song {
+    background-color: #ffffff3a;
+}
+.active-song:hover {
+    background-color: #ffffff3a;
+}

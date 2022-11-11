@@ -1,0 +1,78 @@
+.app_wrapper {
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto minmax(auto, 1fr) auto minmax(auto, 1fr);
+    gap: clamp(1rem, 5vw, 3rem);
+    transition: background 300ms, color 300ms, backdrop-filter 100ms;
+    transition-timing-function: cubic-bezier(0.45, 0.01, 0.69, 1);
+}
+
+.app_wrapper .nav_header {
+    grid-row: 1/2;
+}
+
+.app_wrapper .artwork {
+    grid-row: 2/3;
+}
+
+.app_wrapper .song-info {
+    grid-row: 3/4;
+}
+
+.app_wrapper .player {
+    grid-row: 4/5;
+}
+
+.app_wrapper .artwork, .app_wrapper .song-info, .app_wrapper .player {
+    place-self: center;
+}
+
+.dark-mode {
+    background: linear-gradient(135deg, #313131cb 0%, #000000cb 100%);
+    color: #fafafa;
+}
+
+.light-mode {
+    background: linear-gradient(135deg, #e6e9f0c5 0%, #eef1f5c5 100%);
+    color: #353535;
+}
+
+@media only screen and (min-width: 900px) {
+    body {
+        overflow-y: scroll;
+        scrollbar-width: thin;
+        scrollbar-color: #7777 #77777745;
+    }
+    body::-webkit-scrollbar {
+        width: 1rem;
+    }
+    body::-webkit-scrollbar-track {
+        background-color: #77777745;
+        border-radius: 10rem;
+    }
+    body::-webkit-scrollbar-thumb {
+        background: #7777;
+        border-radius: 10rem;
+    }
+    .app_wrapper {
+        grid-template-columns: minmax(35rem, 1fr) 3fr;
+    }
+    .app_wrapper .nav_header {
+        grid-column: 1/3;
+    }
+    .app_wrapper .library {
+        grid-column: 1/2;
+        grid-row: 2/5;
+        transform: translateX(0);
+    }
+    .app_wrapper .player {
+        grid-column: 2/3;
+    }
+    .app_wrapper .artwork {
+        grid-column: 2/3;
+    }
+    .app_wrapper .song-info {
+        grid-column: 2/3;
+    }
+}

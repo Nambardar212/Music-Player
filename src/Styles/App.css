@@ -1,0 +1,46 @@
+/* Common */
+@import "Common/animations.css";
+
+/* fonts */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+/* Base */
+@import "Base/Base.css";
+
+/* menu items */
+@import "MenuCss/menu-title.css";
+@import "MenuCss/menu-icon.css";
+
+/* Song Info */
+@import "SongInfo/songinfo.css";
+@import "SongInfo/artwork.css";
+@import "SongInfo/songInfoTitle.css";
+@import "SongInfo/songInfoArtist.css";
+
+/* Players */
+@import "Players/player.css";
+@import "Players/player-seek-controls.css";
+@import "Players/player-duration.css";
+@import "Players/player-seek-bar.css";
+@import "Players/player-control.css";
+@import "Players/player-control-icon.css";
+
+/* Layouts */
+  /* Home */
+@import "Layouts/home.css";
+  /* Library */
+@import "Layouts/Library/library.css";
+@import "Layouts/Library/labrary-list-items.css";
+@import "Layouts/Library/library-song-cover.css";
+@import "Layouts/Library/library-song-artist.css";
+@import "Layouts/Library/library-close-icon.css";
+   /* About */
+@import "Layouts/About/about.css";
+@import "Layouts/About/about-button.css";
+@import "Layouts/About/about-headline.css";
+@import "Layouts/About/about-img.css";
+@import "Layouts/About/about-question.css";
+@import "Layouts/About/about-socials.css";
+
+/* Headers */
+@import "Headers/nav-header.css";

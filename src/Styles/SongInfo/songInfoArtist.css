@@ -1,0 +1,12 @@
+.song-info_artist {
+    font-size: 1.4rem;
+    text-align: center;
+    font-weight: 400;
+    transition: color 300ms;
+}
+
+@media only screen and (min-width: 900px) {
+    .song-info_artist {
+        font-size: 1.75rem;
+    }
+}

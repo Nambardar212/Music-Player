@@ -1,0 +1,19 @@
+.about-socials {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.about-socials-group {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+}
+
+.about-socials-icon {
+    font-size: 1.8rem;
+}
+
+.about-socials-text {
+    font-size: 1.5rem;
+}

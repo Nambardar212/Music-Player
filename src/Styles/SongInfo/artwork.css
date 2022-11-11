@@ -1,0 +1,19 @@
+.artwork {
+    height: 24rem;
+    width: 24rem;
+    border: 1rem solid #fafafa;
+    border-radius: 100%;
+    overflow: hidden;
+    transition: border 300ms;
+}
+
+.artwork_img {
+    height: 100%;
+    border-radius: 100%;
+}
+@media only screen and (min-width: 900px) {
+    .artwork {
+        height: 30rem;
+        width: 30rem;
+    }
+}

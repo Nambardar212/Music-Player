@@ -1,0 +1,5 @@
+.song-info {
+    display: flex;
+    flex-direction: column;
+    gap: clamp(0.5rem, 3vw, 3rem);
+}
